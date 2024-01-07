@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário professores</title>
+  </head>
+  <body>
+    <h1>Formulário para Vaga de professor</h1>
+    <form>
+      <label for="name">Nome completo:</label>
+      <input type="text" name="name" id="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" /><br /><br />
+      <label for="age">idade:</label>
+      <input type="number" name="age" id="age" /><br /><br />
+      <label for="subject">Matéria:</label>
+      <select name="subject" id="subject">
+        <option value="opçao1">Matemática</option>
+        <option value="opçao2">Português</option>
+        <option value="opçao3">Biologia</option>
+        <option value="opçao4">Ciências</option>
+        <option value="opçao5">História</option>
+        <option value="opçao6">Geografia</option>
+        <option value="opçao7">Artes</option>
+        <option value="opçao8" selected></option>
+      </select>
+      <h2>Qual seu turno de preferência?</h2> 
+      <label>
+        <input type="checkbox" name="opçao1" id="opçao1" /> Manhã <br />
+      </label>
+      <label>
+        <input type="checkbox" name="opçao2" id="opçao2" /> Tarde <br />
+      </label>
+      <label>
+        <input type="checkbox" name="opçao3" id="opçao3" /> Noite <br />
+      </label>
+      <h2>Qual sua formação?</h2>
+      <select name="schooling" id="schooling">
+        <option value="opçao1">superior</option>
+        <option value="opçao2">cursando mestrado</option>
+        <option value="opçao3">mestrado completo</option>
+        <option value="opçao4">cursando doutorado</option>
+        <option value="opçao5">doutorado completo</option>
+      </select>
+      <br>
+      <br>
+      <h2>Faça uma breve descrição sua!</h2>
+      <textarea name="description" id="description" cols="25" rows="12.5" maxlength="200"></textarea>
+      <br>
+      <input type="submit" name="" id="">
+  </body>
+</html>
